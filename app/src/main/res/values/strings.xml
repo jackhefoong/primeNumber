@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Prime Number Generator</string>
+    <string name="enterNumber">Enter Number</string>
+    <string name="generate">Generate</string>
+    <string name="end">End</string>
+    <string name="start">Start</string>
+    <string name="back">Back</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

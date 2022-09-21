@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.primenumbergenerator.home.home"
+        android:label="home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/homeToPrime"
+            app:destination="@id/primeNumber" />
+    </fragment>
+    <fragment
+        android:id="@+id/primeNumber"
+        android:name="com.example.primenumbergenerator.primeNumber.primeNumber"
+        android:label="primeNumber"
+        tools:layout="@layout/fragment_prime_number">
+        <argument
+            android:name="start"
+            app:argType="integer" />
+        <argument
+            android:name="end"
+            app:argType="integer" />
+    </fragment>
+</navigation>
